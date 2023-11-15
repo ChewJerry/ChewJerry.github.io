@@ -1,0 +1,156 @@
+.logo {
+  float: left;
+  margin-right: 20px;
+  transition: all 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(2);
+}
+
+.logo img {
+  width: 60px;
+  height: 60px;
+}
+
+header {
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px 20px 80px;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+
+.video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.nav {
+  float: right;
+}
+
+section {
+  width: 960px;
+  margin: auto;
+}
+
+.day-forecast {
+  display: inline-block;
+  /* Display articles horizontally */
+  margin: 20px;
+  text-align: center;
+  /* Center the text within each article */
+  width: 250px;
+  /* Set a fixed width for each article */
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  position: relative;
+  /* Change position to relative */
+  width: 100%;
+  clear: both;
+  /* Add this to clear floats */
+  background-color: bisque;
+}
+
+div {
+  flex-direction: row;
+}
+
+#center {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+.day-forecast {
+  display: inline-block;
+  /* Display articles horizontally */
+  margin: 20px;
+  text-align: center;
+  /* Center the text within each article */
+  width: 250px;
+  /* Set a fixed width for each article */
+}
+
+p {
+  font-family: "Fira Sans", sans-serif;
+}
+
+img {
+  transition: all 0.5s ease;
+}
+
+img:hover {
+  transform: scale(1.5);
+}
+
+
+
+
+
+section span,
+section p {
+  margin-bottom: 20px;
+}
+
+a {
+  font-family: "Merriweather Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+/* Add a class to style the dropdown menu */
+.dropdown-menu {
+  position: absolute;
+  display: none;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Style the dropdown links */
+.dropdown-menu a {
+  padding: 12px 16px;
+  display: block;
+  text-align: left;
+  text-decoration: none;
+  color: #333;
+}
+
+/* Change the background color of the dropdown links on hover */
+.dropdown-menu a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown-toggle:hover .dropdown-menu {
+  display: block;
+}
+
+
+.current {
+  font-weight: bold;
+  color: #007acc;
+  /* Change this color to your preferred highlight color */
+}
+
+article {
+  box-sizing: border-box;
+  width: 30%;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  float: left;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}

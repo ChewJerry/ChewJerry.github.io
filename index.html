@@ -1,10 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8" />
-    <title>First Commit</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylesheet/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@600&family=Open+Sans:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>World Xplore - Home</title>
 </head>
+
 <body>
+
+    <header>
+        <div class="logo">
+            <img src="images/logoL4.png" alt="World Xplore Logo">
+        </div>
+
+        <nav class="nav">
+            <a href="index.html" class="current"><i class="fa-solid fa-house"></i> Home</a> |
+            <a href="#" class="dropdown-toggle"><i class="fa-solid fa-suitcase"></i> Package Tours</a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Singapore Tour</a></li>
+                <li><a href="#">Malaysia Tour</a></li>
+                <li><a href="#">Thailand Tour</a></li>
+            </ul>|
+            <a href="rediscoversg.html"><i class="fa-solid fa-eye"></i> Rediscover Singapore</a> |
+            <a href="#"><i class="fa-solid fa-ship"></i> Cruises</a> |
+            <a href="contacts.html"><i class="fa-solid fa-address-book"></i> Contact Us</a>
+        </nav>
+    </header>
+
+
     
+
+
+
+    
+    <section>
+        <h1 id="center">Explore The World!</h1>
+        <article class="day-forecast">
+            <img src="images/indonesia.webp" alt="Image description" style="width: 250px; height: 250px;">
+            <h2>Package 1</h2>
+            <p>Indonesia</p>
+        </article>
+
+        <article class="day-forecast">
+            <img src="images/cambodia.jpeg" alt="Image description" style="width: 250px; height: 250px;">
+            <h2>Package 2</h2>
+            <p>Cambodia</p>
+        </article>
+
+        <article class="day-forecast">
+            <img src="images/malaysia.jpeg" alt="Image description" style="width: 250px; height: 250px;">
+            <h2>Package 3</h2>
+            <p>Malaysia</p>
+        </article>
+    </section>
+
+    <video autoplay muted loop id="myVideo" class="video"> <!-- Added the "video" class -->
+        <source src="videos/video.mp4" type="video/mp4" />
+        Download the
+        <a href="videos/video.mp4">MP4</a> video.
+    </video>
+
+
+    <footer>
+        <p>© 2023 Jerry Chew</p>
+    </footer>
 </body>
+
 </html>
