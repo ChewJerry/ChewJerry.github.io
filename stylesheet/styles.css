@@ -159,6 +159,7 @@ article {
 /* Add a class to the section to style only the specific section */
 .centered-section {
   text-align: center;
+  margin-right: 20px ;
 }
 
 .centered-section .day-forecast {
