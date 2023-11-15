@@ -81,6 +81,8 @@ h1 {
   /* Center the text within each article */
   width: 250px;
   /* Set a fixed width for each article */
+
+  margin-right: 100px;
 }
 
 p {
@@ -156,15 +158,4 @@ article {
 }
 
 
-/* Add a class to the section to style only the specific section */
-.centered-section {
-  text-align: center;
-  margin-right: 100px ;
-}
 
-.centered-section .day-forecast {
-  display: inline-block;
-  margin: 20px;
-  text-align: center;
-  width: 250px;
-}
