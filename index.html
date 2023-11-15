@@ -12,12 +12,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <title>World Xplore - Home</title>
     <style>
-        /* TODO 3: Add CSS media queries for smaller screens */
         @media only screen and (max-width: 768px) {
+            body {
+                background-image: url('images/imgResponsive.png'); /* Replace with the desired image */
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
 
-
-
-            /* TODO 5: Shift navigation below logo, add a black background and center all nav items */
             nav {
                 float: none;
                 text-align: center;
@@ -33,20 +34,15 @@
                 text-decoration: none;
             }
 
-            /* TODO 6: Stack the 3 images in 1 column */
             article {
                 width: 100%;
                 display: block;
-                /* Ensure images stack vertically */
                 margin-bottom: 10px;
-                /* Add some space between stacked images */
             }
 
-            /* TODO 7: Hide the video */
-            body {
-                background-image: url('img_flowers.jpg');
+            video {
+                display: none; /* Hide the video on smaller screens */
             }
-
         }
     </style>
 </head>
@@ -72,39 +68,26 @@
         </nav>
     </header>
 
-
-
-
-
-
-
     <section class="centered-section">
         <h1 id="center">Explore The World!</h1>
         <article class="day-forecast">
-            <img src="images/indonesia.webp" alt="Image description" style="width: 250px; height: 250px;">
+            <img src="images/indonesia.webp" alt="Indonesia" style="width: 100%;">
             <h2>Package 1</h2>
             <p>Indonesia</p>
         </article>
 
         <article class="day-forecast">
-            <img src="images/cambodia.jpeg" alt="Image description" style="width: 250px; height: 250px;">
+            <img src="images/cambodia.jpeg" alt="Cambodia" style="width: 100%;">
             <h2>Package 2</h2>
             <p>Cambodia</p>
         </article>
 
         <article class="day-forecast">
-            <img src="images/malaysia.jpeg" alt="Image description" style="width: 250px; height: 250px;">
+            <img src="images/malaysia.jpeg" alt="Malaysia" style="width: 100%;">
             <h2>Package 3</h2>
             <p>Malaysia</p>
         </article>
     </section>
-
-    <video autoplay muted loop id="myVideo" class="video"> <!-- Added the "video" class -->
-        <source src="videos/video.mp4" type="video/mp4" />
-        Download the
-        <a href="videos/video.mp4">MP4</a> video.
-    </video>
-
 
     <footer>
         <p>© 2023 Jerry Chew</p>
