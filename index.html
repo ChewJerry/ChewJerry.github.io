@@ -14,13 +14,14 @@
     <style>
         @media only screen and (max-width: 768px) {
             body {
-                background-image: url('images/imgResponsive.png'); /* Replace with the desired image */
+                background-image: url('images/imgResponsive.png');
+                /* Replace with the desired image */
                 background-size: contain;
                 background-repeat: no-repeat;
             }
 
             nav {
-                float: none;
+                width: 100%;
                 text-align: center;
                 background-color: black;
                 padding: 10px 0;
@@ -40,8 +41,24 @@
                 margin-bottom: 10px;
             }
 
+            .articles-wrapper {
+                display: block;
+                /* Change from flex to block */
+                text-align: center;
+                /* Center the articles */
+            }
+
+            .day-forecast {
+                width: 100%;
+                /* Set the width to 100% to make them full-width */
+                margin: 20px 0;
+                /* Adjust the margin as needed for spacing between articles */
+            }
+
+
             video {
-                display: none; /* Hide the video on smaller screens */
+                display: none;
+                /* Hide the video on smaller screens */
             }
         }
     </style>
@@ -71,25 +88,25 @@
     <section class="centered-section">
         <h1 id="center">Explore The World!</h1>
         <div class="articles-wrapper">
-          <article class="day-forecast">
-            <img src="images/indonesia.webp" alt="Indonesia" style="width: 100%;">
-            <h2>Package 1</h2>
-            <p>Indonesia</p>
-          </article>
-      
-          <article class="day-forecast">
-            <img src="images/cambodia.jpeg" alt="Cambodia" style="width: 100%;">
-            <h2>Package 2</h2>
-            <p>Cambodia</p>
-          </article>
-      
-          <article class="day-forecast">
-            <img src="images/malaysia.jpeg" alt="Malaysia" style="width: 100%;">
-            <h2>Package 3</h2>
-            <p>Malaysia</p>
-          </article>
+            <article class="day-forecast">
+                <img src="images/indonesia.webp" alt="Indonesia" style="width: 100%;">
+                <h2>Package 1</h2>
+                <p>Indonesia</p>
+            </article>
+
+            <article class="day-forecast">
+                <img src="images/cambodia.jpeg" alt="Cambodia" style="width: 100%;">
+                <h2>Package 2</h2>
+                <p>Cambodia</p>
+            </article>
+
+            <article class="day-forecast">
+                <img src="images/malaysia.jpeg" alt="Malaysia" style="width: 100%;">
+                <h2>Package 3</h2>
+                <p>Malaysia</p>
+            </article>
         </div>
-      </section>
+    </section>
     <video autoplay muted loop id="myVideo" class="video"> <!-- Added the "video" class -->
         <source src="videos/video.mp4" type="video/mp4" />
         Download the
