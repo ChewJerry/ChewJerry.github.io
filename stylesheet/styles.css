@@ -37,16 +37,18 @@ header {
 section {
   width: 960px;
   margin: auto;
+  text-align: center; /* Center the content within the section */
 }
 
 .day-forecast {
   display: inline-block;
-  /* Display articles horizontally */
   margin: 20px;
   text-align: center;
-  /* Center the text within each article */
   width: 250px;
   /* Set a fixed width for each article */
+
+  margin-right: 20px; /* Adjust the right margin as needed */
+  margin-left: 20px; /* Adjust the left margin as needed */
 }
 
 footer {
@@ -70,7 +72,7 @@ div {
 
 h1 {
   font-family: "Merriweather Sans", sans-serif;
-  font-family: "Open Sans", sans-serif;
+  text-align: center; /* Center the h1 within its container */
 }
 
 .day-forecast {
