@@ -11,33 +11,42 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <title>World Xplore - Home</title>
-
     <style>
-        @media only screen and (max-width: 600px) {
-            nav {
-                display: none;
-            }
+    /* TODO 3: Add CSS media queries for smaller screens */
+        @media only screen and (max-width: 768px) {
 
-            .hamburger-menu {
-                display: block;
+            
+
+            /* TODO 5: Shift navigation below logo, add a black background and center all nav items */
+            nav {
+                float: none;
                 text-align: center;
                 background-color: black;
                 padding: 10px 0;
-                margin-top: 10px; /* Adjust margin as needed */
+                margin-top: 55px;
             }
 
-            .hamburger-menu i {
-                color: white;
-                font-size: 20px; /* Adjust font size as needed */
-                cursor: pointer;
-            }
-
-            .hamburger-menu a {
+            nav a {
                 display: block;
                 padding: 10px;
                 color: white;
                 text-decoration: none;
             }
+
+            /* TODO 6: Stack the 3 images in 1 column */
+            article {
+                width: 100%;
+                display: block;
+                /* Ensure images stack vertically */
+                margin-bottom: 10px;
+                /* Add some space between stacked images */
+            }
+
+            /* TODO 7: Hide the video */
+            video {
+                display: none;
+            }
+
         }
     </style>
 </head>
