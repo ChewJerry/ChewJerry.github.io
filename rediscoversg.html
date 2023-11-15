@@ -10,6 +10,57 @@
         href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@600&family=Open+Sans:wght@300&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <style>
+        @media only screen and (max-width: 768px) {
+            body {
+                background-image: url('images/imgResponsive.png');
+                /* Replace with the desired image */
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+
+            nav {
+                width: 100%;
+                text-align: center;
+                background-color: black;
+                padding: 10px 0;
+                margin-top: 55px;
+            }
+
+            nav a {
+                display: block;
+                padding: 10px;
+                color: white;
+                text-decoration: none;
+            }
+
+            article {
+                width: 100%;
+                display: block;
+                margin-bottom: 10px;
+            }
+
+            .articles-wrapper {
+                display: block;
+                /* Change from flex to block */
+                text-align: center;
+                /* Center the articles */
+            }
+
+            .day-forecast {
+                width: 100%;
+                /* Set the width to 100% to make them full-width */
+                margin: 20px 0;
+                /* Adjust the margin as needed for spacing between articles */
+            }
+
+
+            video {
+                display: none;
+                /* Hide the video on smaller screens */
+            }
+        }
+    </style>
     <title>World Xplore - Rediscover Singapore</title>
 </head>
 
